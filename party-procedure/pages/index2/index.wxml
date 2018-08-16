@@ -1,0 +1,29 @@
+<view class='top'><image src='../images/chuxin.jpg'/></view>
+<view class='manlist'  bindtap="viewTap">
+    <view class='manlist_left'>
+        <view class='manlist_left1'><image src='../icon/touxiang.jpg'/></view>
+        <view class='manlist_left2'>蔡傲蝶</view>
+        <view class='manlist_left3'>党员</view>
+    </view>
+  <view class='manlist_right'>
+    <image src='../icon/goback.png'/>
+  </view>
+</view>
+<view class='container'>
+<view class='list' ontap="map">
+<view class='list-img'><image src='../icons/map.png'/></view>
+<view>党建地图</view>
+</view>
+<view class='list'>
+<view class='list-img2'><image src='../icons/sign.png'/></view>
+<view>党员风采</view>
+</view>
+<view class='list' bindtap="tapName">
+<view class='list-img3'><image src='../icons/book.png'/></view>
+<view>党员微课</view>
+</view>
+<view class='list'>
+<view class='list-img4'><image src='../icons/wallet.png'/></view>
+<view>党建缴纳</view>
+</view>
+</view>

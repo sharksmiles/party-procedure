@@ -1,0 +1,89 @@
+.father-swiper{
+    display: flex;
+    justify-content:center;
+    margin-top: 80px;
+}
+.swiper-tab {
+    width: 50%;
+    text-align: center;
+    line-height: 40px;
+    background-color:white;
+    border-radius: 25px;
+}
+
+.swiper-tab-list {
+    font-size: 15px;
+    display: inline-block;
+    border:1px solid  #ba2024;
+    width: 45.0%;
+    color: #777;
+    border-radius: 0px 25px 25px 0px;
+
+}
+.swiper-tab-list1 {
+    font-size: 15px;
+    display: inline-block;
+    border:1px solid  #ba2024;
+    width: 45.0%;
+    color: #777;
+    border-radius: 25px 0 0 25px;
+}
+
+.on {
+    color: #ffffff;
+    background-color:  #ba2024;
+    border-radius: 25px 0 0 25px;
+    text-align: center;
+    height: 40px;
+
+}
+.ono {
+    color: #ffffff;
+    background-color:  #ba2024;
+    border-radius: 0px 25px 25px 0px;
+    text-align: center;
+    height: 40px;
+}
+.weui-cells__title{
+    margin: 0 auto;
+    display: flex;
+    justify-content:center;
+}
+.weui-cells__title .text-conent{
+    width:90%;
+    border-top: 1px solid #e0e0e0;
+    margin-top: 40px;
+}
+.weui-cells__title .text-conent .text-conent1{
+    height: 40px;
+    line-height: 40px;
+    padding-top: 5px;
+    font-size: 14px;
+    display: flex;
+    border-bottom: 1px solid #e0e0e0;
+
+}
+.text-conent1_left{
+    flex: 2;
+    padding-left: 5px;
+}
+.text-conent1_right{
+    flex: 9;
+    padding-top: 5px;
+    padding-left: 5px;
+
+}
+.button_login{
+    display: flex;
+}
+.button_login button{
+    width: 40%;
+    height: 35px;
+    margin-top: 40px;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 35px;
+    background-color: #ba2024;
+    font-size: 16px;
+    color: #ffffff;
+}

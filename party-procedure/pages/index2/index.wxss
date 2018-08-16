@@ -1,0 +1,128 @@
+/**index.wxss**/
+page{
+  background-color: #f4f2f3;
+}
+.top{
+  height: 150px;
+}
+.top image{
+  height: 150px;
+  width: 100%;
+  
+}
+.manlist{
+  height: 40px;
+  background-color: #ffffff;
+}
+.manlist .manlist_left{
+  position: relative;
+  font-size: 14px;
+}
+.manlist .manlist_left1{
+  position: absolute;
+  top:-30px;
+  margin-left: 18px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50px;
+ }
+.manlist .manlist_left1 image{
+  width: 60px;
+  height: 60px;
+  border-radius: 50px;
+}
+.manlist .manlist_left2{
+  position: absolute;
+  left: 90px;
+  top:10px;
+  padding-right: 10px;
+  border-right: 1px solid #e0e0e0;
+}
+.manlist .manlist_left3{
+ left: 150px;
+  position: absolute;
+  top:10px;
+}
+.manlist image{
+  width: 20px;
+  height: 20px;
+  float: right;
+  margin-top: 10px;
+
+}
+.container{
+  display: flex;
+  height: 200px;
+  margin-top: 10px;
+  text-align: center;
+  flex-wrap:wrap;
+  flex-direction: row;
+  justify-content:center;
+  background-color: #fff;
+
+  
+}
+.list{
+  width: 49.2%;
+  border:1px solid #e0e0e0;
+ 
+  
+}
+.list-img{
+  width: 50px;
+  height: 50px;
+  margin: 0px auto;
+  background: orange;
+  border-radius: 15px;
+  margin-top: 15px;
+}
+.list-img2{
+  width: 50px;
+  height: 50px;
+  background:red;
+  border-radius: 15px;
+  margin: 0px auto;
+  margin-top: 15px;
+}
+.list-img3{
+  width: 50px;
+  height: 50px;
+  margin: 0px auto;
+  margin-top: 15px;
+  background:rgb(116, 116, 197);
+  border-radius: 15px;
+}
+.list-img4{
+  width: 50px;
+  height: 50px;
+  margin: 0px auto;
+  margin-top: 15px;
+  background: rgb(136, 151, 235);
+  border-radius: 15px;
+}
+.list-img image{
+  width: 40px;
+  height:40px;
+ padding-top: 5px;
+}
+.list-img2 image{
+  width: 40px;
+  height:40px;
+  padding-top: 2px;
+ 
+}
+.list-img3 image{
+  width: 40px;
+  height:40px;
+  padding-top: 5px;
+  
+}
+
+.list-img4 image{
+  width: 40px;
+  height:40px;
+padding-top: 5px;
+  
+}
+
+

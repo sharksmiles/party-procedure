@@ -1,0 +1,33 @@
+<!--index.wxml-->
+<view class='top'>
+<image src='../icons/beijing.png'></image>
+</view>
+<view class='bodys'>
+<view class='front'>
+<view class='front-left'>
+<image src='../icons/icon1.png'/>
+</view>
+<view class='front-right'>
+<view class='front-right1'>我的发布：</view>
+<view class='front-right2'>3件</view>
+</view>
+</view>
+<view class='front'>
+<view class='front-left'>
+<image src='../icons/icon2.png'/>
+</view>
+<view class='front-right'>
+<view class='front-right1'>我的认领：</view>
+<view class='front-right2'>0件</view>
+</view>
+</view>
+<view class='front'>
+<view class='front-left'>
+<image src='../icons/icon3.png'/>
+</view>
+<view class='front-right'>
+<view class='front-right1'>我的积分：</view>
+<view class='front-right2'>35</view>
+</view>
+</view>
+</view>

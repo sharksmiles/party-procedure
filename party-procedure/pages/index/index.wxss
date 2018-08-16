@@ -1,0 +1,57 @@
+page{
+  background-color: #f4f2f3;
+}
+.swiper {
+  height: 150px;
+  width: 100%;
+}
+.swiper image {
+  height: 100%;
+  width: 100%;
+}
+.title{
+  margin-top: 10px;
+  background-color: #fddada;
+  height: 50px;
+}
+.title .title_left1{
+  float: left;
+  margin-top: 10px;
+  border-left: 2px black solid;
+  height: 30px;
+  margin-left: 20px;
+}
+.title .title_left{
+  float: left;
+  margin-top: 10px;
+  margin-left: 10px;
+  
+}
+.title .title_right image{
+ width: 20px;
+ height: 20px;
+ float: right;
+margin-top: 15px;
+margin-right: 20px;
+}
+.container{
+  height: 100px;
+  background-color: #ffffff;
+  display: flex;
+  align-items:center;
+  border-bottom: 1px solid #e0e0e0;
+ 
+}
+.container .container_left{
+  flex: 3;
+  padding: 0px 5px;
+  font-size: 14px;
+ 
+}.container .container_right{
+  flex: 1;
+}
+.container .container_right image{
+  width: 150px;
+  height: 70px;
+  padding-right: 10px;
+}

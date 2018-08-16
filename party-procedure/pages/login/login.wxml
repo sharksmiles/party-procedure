@@ -1,0 +1,76 @@
+<!--index.wxml-->
+<view class="father-swiper">
+    <view class="swiper-tab">
+        <view class="swiper-tab-list1 {{currentTab==0 ? 'on' : ''}}" data-current="0" bindtap="swichNav">登录</view>
+        <view class="swiper-tab-list {{currentTab==1 ? 'ono' : ''}}" data-current="1" bindtap="swichNav">注册</view>
+    </view>
+</view>
+    <view  hidden="{{!isShow}}">
+        <view  class="weui-cells__title" >
+      <view class="text-conent">
+          <view class="text-conent1">
+              <view class="text-conent1_left">姓名</view>
+              <view class="text-conent1_right"><input placeholder="请输入姓名" auto-focus/></view>
+          </view>
+
+          <view class="text-conent1">
+              <view class="text-conent1_left">手机号</view>
+              <view class="text-conent1_right"><input placeholder="请输入手机号" bindblur="bindtel"/></view>
+          </view>
+          <view class="text-conent1">
+              <view class="text-conent1_left">验证码</view>
+              <view class="text-conent1_right"><input placeholder="请输入验证码" /></view>
+          </view>
+          <view class="text-conent1">
+              <view class="text-conent1_left">党组织</view>
+              <view class="text-conent1_right">
+
+                  <picker bindchange="bindPickerChange"  range="{{array}}">
+                      <view  >
+                          "  "{{array[index]}}
+                      </view>
+                  </picker>
+              </view>
+          </view>
+      </view>
+        </view>
+        <view class="button_login">
+            <button ontap="login">登录</button>
+        </view>
+    </view>
+
+
+    <view  hidden="{{isShow}}">
+        <view  class="weui-cells__title" >
+            <view class="text-conent">
+                <view class="text-conent1">
+                    <view class="text-conent1_left">姓名</view>
+                    <view class="text-conent1_right"><input placeholder="请输入姓名" auto-focus/></view>
+                </view>
+
+                <view class="text-conent1">
+                    <view class="text-conent1_left">手机号</view>
+                    <view class="text-conent1_right"><input placeholder="请输入手机号" bindblur="bindtel"/></view>
+                </view>
+                <view class="text-conent1">
+                    <view class="text-conent1_left">身份证</view>
+                    <view class="text-conent1_right"><input placeholder="请输入身份证件号码" /></view>
+                </view>
+                <view class="text-conent1">
+                    <view class="text-conent1_left">党组织</view>
+                    <view class="text-conent1_right">
+
+                        <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+                            <view class="picker" >
+                                {{array[index]}}
+                            </view>
+                        </picker>
+                    </view>
+                </view>
+            </view>
+        </view>
+        <view class="button_login">
+            <button ontap="login">注册</button>
+        </view>
+
+    </view>

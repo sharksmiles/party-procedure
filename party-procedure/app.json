@@ -1,0 +1,49 @@
+{
+  "pages":[
+    "pages/index2/index",
+    "pages/index/index",
+    "pages/index3/index",
+    "pages/micro_wish/wish",
+    "pages/index4/index",
+    "pages/logs/logs",
+    "pages/map/map",
+    "pages/login/login",
+    "pages/micro_class/class",
+    "pages/index/Dynamic_Details/index"
+
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+"navigationBarBackgroundColor":"#bb2024",
+   
+    "navigationBarTextStyle":"white",
+    "backgroundColor": "#000000"
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "信息发布",
+      "iconPath": "pages/icon/首页.png",
+      "selectedIconPath": "pages/icons/首页.png"
+    },{
+      "pagePath": "pages/index2/index",
+      "text": "党员管理",
+      "iconPath": "pages/icon/fenlei.png",
+      "selectedIconPath": "pages/icons/fenlei.png"
+    },{
+      "pagePath": "pages/index3/index",
+      "text": "党群服务",
+      "iconPath": "pages/icon/爱心捐赠.png",
+      "selectedIconPath": "pages/icons/爱心捐赠.png"
+    },{
+      "pagePath": "pages/index4/index",
+      "text": "个人中心",
+      "iconPath": "pages/icon/人物.png",
+      "selectedIconPath": "pages/icons/人物.png"
+    }
+    ],
+    "position":"bottom"
+   
+    
+  }
+}

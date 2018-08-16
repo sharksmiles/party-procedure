@@ -1,0 +1,51 @@
+<!--index.wxml-->
+ <swiper class="swiper" indicator-dots="true" autoplay="true" interval="5000" duration="1000">  
+      <block wx:for="{{movies}}" wx:for-index="index" wx:key="unique">  
+        <swiper-item>  
+          <image src="{{item.url}}" class="slide-image" mode="aspectFill"/>  
+        </swiper-item>  
+      </block>  
+    </swiper>  
+<view class='title'  bindtap="tapName1">
+<view class='title_left1'></view>
+<view class='title_left'>{{dynamic}}</view>
+<view class='title_right'>
+<image src='../icon/goback.png'/>
+</view>
+</view>
+<view class='container' wx:for="{{dynamics}}" wx:key="unique">
+<view class='container_left'>{{item.post_title}}</view>
+<view class='container_right'>
+<image src='{{item.image}}'/>
+
+</view>
+</view>
+<view class='title' bindtap="tapName2">
+<view class='title_left1'></view>
+<view class='title_left'>{{information}}</view>
+<view class='title_right'>
+<image src='../icon/goback.png'/>
+</view>
+</view>
+<view class='container' wx:for="{{informations}}" wx:key="unique">
+<view class='container_left'> {{item.post_title}}</view>
+<view class='container_right'>
+<image src='{{item.image}}'/>
+</view>
+</view>
+
+
+<view class='title'bindtap="tapName3">
+<view class='title_left1'></view>
+<view class='title_left'>{{activity}}</view>
+<view class='title_right'>
+<image src='../icon/goback.png'/>
+</view>
+</view>
+<view class='container' wx:for="{{activities}}" wx:key="unique">
+<view class='container_left'>{{item.post_title}}</view>
+<view class='container_right'>
+<image src='{{item.image}}'/>
+</view>
+</view>
+

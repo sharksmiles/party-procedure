@@ -1,0 +1,9 @@
+<view class="top">
+    <image src="../icons/weike.png"></image>
+</view>
+<view class='container' wx:for="{{msg}}" wx:key="index">
+    <view class='container_left'>{{item.post_title}}</view>
+    <view class='container_right'>
+        <image src='{{item.image}}'/>
+    </view>
+</view>

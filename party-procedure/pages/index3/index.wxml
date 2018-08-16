@@ -1,0 +1,46 @@
+<!--index.wxml-->
+<swiper class="swiper" indicator-dots="true" autoplay="true" interval="5000" duration="1000">  
+      <block wx:for="{{movies}}" wx:key="unique">
+        <swiper-item>  
+          <image src="{{item.url}}" class="slide-image" mode="aspectFill"/>  
+        </swiper-item>  
+      </block>  
+    </swiper>  
+    <view class='container'>
+   <view class='container_items'>
+    <view class='container_items_top'>
+      <image src='../icon/1.png'/>
+     </view>
+    <view class='container_items_bottom'>
+    需求清单
+    </view>
+    </view>
+    <view class='container_items'>
+    <view class='container_items_top'>
+      <image src='../icon/2.png'/>
+     </view>
+    <view class='container_items_bottom'>
+    资料清单
+    </view>
+    </view>
+    <view class='container_items'>
+    <view class='container_items_top'>
+      <image src='../icon/3.png'/>
+     </view>
+    <view class='container_items_bottom'>
+    项目清单
+    </view>
+    </view>
+
+   <view class='container_items' bindtap="viewTap">
+    <view class='container_items_top'>
+      <image src='../icon/4.png'/>
+     </view>
+    <view class='container_items_bottom'>
+    微心愿
+    </view>
+    </view>
+    <view class='container_items'></view>
+    <view class='container_items'></view>
+    </view>
+  

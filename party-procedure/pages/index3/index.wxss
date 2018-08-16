@@ -1,0 +1,38 @@
+/**index.wxss**/
+page{
+    background-color: #f4f2f3;
+}
+.swiper {
+  height: 180px;
+  width: 100%;
+}
+.swiper image {
+  height: 100%;
+  width: 100%;
+}
+.container{
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: center;
+}
+.container .container_items{
+    border:1px solid #9c9090; 
+    height: 70px;
+    width: 32.7%;
+    background-color: #ffffff;
+    text-align: center;
+    line-height: 70px;
+    font-size: 12px;
+}
+.container .container_items image{
+  width: 30px;
+  height: 30px;
+}
+.container .container_items .container_items_top{
+  height: 30px;
+}
+.container .container_items .container_items_bottom{
+  height: 30px;
+  line-height: 30px;
+  margin-top: 5px
+}

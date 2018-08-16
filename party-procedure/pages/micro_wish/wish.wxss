@@ -1,0 +1,97 @@
+ page{
+    background-color: #eaeaea;
+}
+.top_Title{
+    display: flex;
+    justify-content:center;
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
+.top_title{
+    width: 90%;
+}
+.top{
+    display: flex;
+    justify-content:center;
+}
+.top .top_input{
+    border: 1px solid #e9e9e9;
+    width: 90%;
+    background-color: #fff;
+    height: 40px;
+    line-height: 40px;
+    padding-top: 10px;
+    padding-left: 15px;
+}
+ .containers_Title{
+     display: flex;
+     justify-content:center;
+     margin-bottom: 10px;
+     margin-top: 25px;
+ }
+ .containers_title{
+     width: 90%;
+ }
+ .containers{
+     display: flex;
+     justify-content:center;
+ }
+ .containers .containers_input{
+     border: 1px solid #e9e9e9;
+     width: 90%;
+     background-color: #fff;
+     height: 180px;
+     padding-top: 15px;
+     padding-left: 20px;
+ }
+ .name_Title{
+     display: flex;
+     justify-content:center;
+     margin-bottom: 7px;
+     margin-top: 20px;
+ }
+ .name_title{
+     width: 90%;
+ }
+ .name{
+     display: flex;
+     justify-content:center;
+ }
+ .name .name_input{
+     border: 1px solid #e9e9e9;
+     width: 90%;
+     background-color: #fff;
+     height: 40px;
+     line-height: 40px;
+     padding-top: 10px;
+     padding-left: 15px;
+ }
+ .phone_Title{
+     display: flex;
+     justify-content:center;
+     margin-bottom: 7px;
+     margin-top: 20px;
+ }
+ .phone_title{
+     width: 90%;
+ }
+ .phone{
+     display: flex;
+     justify-content:center;
+ }
+ .phone .phone_input{
+     border: 1px solid #e9e9e9;
+     width: 90%;
+     background-color: #fff;
+     height: 40px;
+     line-height: 40px;
+     padding-top: 10px;
+     padding-left: 15px;
+ }
+ button{
+     margin-top: 90px;
+     width: 80%;
+     color: #ffffff;
+     background-color: #bb2024;
+     margin-bottom: 40px;
+ }

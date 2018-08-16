@@ -1,0 +1,36 @@
+/**index.wxss**/
+.top image{
+height: 150px;
+width: 100%;
+}
+ .front{
+   display: flex;
+   margin-top: 15px;
+   border-bottom: 1px solid #e0e0e0;
+ }
+ .front .front-left{
+   width: 25%;
+   height: 45px;
+   margin: 0 auto;
+   text-align: center;
+ }
+ .front .front-left image{
+   width: 45px;
+   height: 45px;
+   line-height: 45px;
+ }
+ .front .front-right{
+   width: 75%;
+
+   height: 50px;
+   display: flex;
+ }
+ .front-right1{
+   line-height: 45px;
+   width: 42%;
+ }
+ .front-right2{
+   line-height: 45px;
+   width: 30%;
+   
+ }
