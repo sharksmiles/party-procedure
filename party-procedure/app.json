@@ -10,11 +10,10 @@
     "pages/login/login",
     "pages/micro_class/class",
     "pages/index/Dynamic_Details/index"
-
   ],
   "window":{
     "backgroundTextStyle":"light",
-"navigationBarBackgroundColor":"#bb2024",
+   "navigationBarBackgroundColor":"#bb2024",
    
     "navigationBarTextStyle":"white",
     "backgroundColor": "#000000"
@@ -43,7 +42,6 @@
     }
     ],
     "position":"bottom"
-   
-    
+
   }
 }
