@@ -1,10 +1,13 @@
 {
   "pages":[
-    "pages/index2/index",
+    "pages/micro_list/wish_list",
     "pages/index/index",
-    "pages/index3/index",
-    "pages/micro_wish/wish",
-    "pages/index4/index",
+
+    "pages/index_1/index",
+    "pages/index_2/index",
+    "pages/micro_mywish-submit/wish",
+    "pages/micro_wish-submit/wish",
+    "pages/index_3/index",
     "pages/logs/logs",
     "pages/map/map",
     "pages/login/login",
@@ -25,17 +28,17 @@
       "iconPath": "pages/icon/首页.png",
       "selectedIconPath": "pages/icons/首页.png"
     },{
-      "pagePath": "pages/index2/index",
+      "pagePath": "pages/index_1/index",
       "text": "党员管理",
       "iconPath": "pages/icon/fenlei.png",
       "selectedIconPath": "pages/icons/fenlei.png"
     },{
-      "pagePath": "pages/index3/index",
+      "pagePath": "pages/index_2/index",
       "text": "党群服务",
       "iconPath": "pages/icon/爱心捐赠.png",
       "selectedIconPath": "pages/icons/爱心捐赠.png"
     },{
-      "pagePath": "pages/index4/index",
+      "pagePath": "pages/index_3/index",
       "text": "个人中心",
       "iconPath": "pages/icon/人物.png",
       "selectedIconPath": "pages/icons/人物.png"

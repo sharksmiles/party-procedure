@@ -1,4 +1,4 @@
-page{
+ page{
   background-color: #f4f2f3;
 }
 .swiper {
@@ -12,6 +12,7 @@ page{
 .title{
   margin-top: 10px;
   background-color: #fddada;
+  /*background-image: url(../images/bg.png);*/
   height: 50px;
 }
 .title .title_left1{

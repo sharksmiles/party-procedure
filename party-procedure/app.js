@@ -1,32 +1,30 @@
 //app.js
 App({
   onLaunch: function () {
-    //var that=this;
-    //  wx.login({
-    //    success: function(res) {
-    //      //var APPID='wxf8ab6012758ac4a5';
-    //      //var SCODE='e32beabb30d57e63c7889761fb6b80e4';
-    //      if (res.code) {
-    //        //发起网络请求
-    //        wx.request({
-    //          url: 'https://api.weixin.qq.com/sns/jscode2session?appid=wxf8ab6012758ac4a5&secret=wxf8ab6012758ac4a5&js_code='+res.code+'&grant_type=authorization_code',
-    //          data: {
-    //            code: res.code
-    //          },
-    //        header:{
-    //          'Content-Type':'applicatin/json'
-    //        },
-    //          success:function(res){
-    //            var res=JSON.parse(data);
-    //
-    //            that.globalData.openid=res.openid;
-    //          }
-    //        })
-    //      } else {
-    //        console.log('登录失败！' + res.errMsg)
-    //      }
-    //    }
-    //  });
+    var that=this;
+      wx.login({
+        success: function(res) {
+          var APPID='wxf8ab6012758ac4a5';
+          var SECRET='e32beabb30d57e63c7889761fb6b80e4';
+
+          if (res.code) {
+            //发起网络请求
+            wx.request({
+              url: 'https://api.weixin.qq.com/sns/jscode2session?appid='+APPID+'&secret='+SECRET+'&js_code='+res.code+'&grant_type=authorization_code',
+              data: {},
+            header:{
+              'Content-Type':'application/json'
+            },
+              success:function(res){
+              var openid=res.data.openid
+                console.log(openid);
+              }
+            })
+          } else {
+            console.log('登录失败！' + res.errMsg)
+          }
+        }
+      });
 
 
 

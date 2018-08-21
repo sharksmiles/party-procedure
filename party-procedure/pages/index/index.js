@@ -34,7 +34,7 @@ Page({
           dynamics:dynamics
         })
       }
-    })
+    });
    
     wx.request({
       url: 'https://hanzhengjie.tenqent.com/index.php/Api/Shichang/index', //仅为示例，并非真实的接口地址

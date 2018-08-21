@@ -13,7 +13,7 @@ Page({
   },
   viewTap() {
     wx.navigateTo({
-      url: '../micro_wish/wish'
+      url: '../micro_list/wish_list'
     })
   }
 }) ;

@@ -1,0 +1,21 @@
+<view class="wish_title">
+    <view class="wish_title_left">微心愿 <span>0</span>条</view>
+    <button bindtap="viewTap1">我的发布</button>
+</view>
+<view class="wish_top">
+    <image src="../images/wish_big.png"/>
+</view>
+<view>
+    <view class="wish_submit-left">
+        <image src="../icons/1.png"/>
+        <span>微心愿</span>
+    </view>
+    <view class="wish_submit-right"><button bindtap="viewTap">发布心愿</button></view>
+</view>
+<view class="wish_container">
+    <!--<p>暂无发布微心愿</p>-->
+    <view class="wish_content" wx:for="{{pages}}" wx:key="unique">
+        <view class="wish_content_title">{{item.title}}</view>
+        <view class="wish_content_date">2018年6月30日</view>
+    </view>
+</view>

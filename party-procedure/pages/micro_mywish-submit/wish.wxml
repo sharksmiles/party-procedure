@@ -1,0 +1,37 @@
+<view class="top_Title">
+    <view class="top_title">发布标题</view>
+</view>
+<view class="top">
+    <view class="top_input">
+            <input type="text" placeholder="请输入标题" value="{{title}}"/>
+    </view>
+</view>
+
+<view class="containers_Title">
+    <view class="containers_title">发布内容</view>
+</view>
+<view class="containers">
+    <view class="containers_input">
+        <input type="text" placeholder="请输入内容" value="{{content}}"/>
+    </view>
+</view>
+
+<view class="name_Title">
+    <view class="name_title">姓名</view>
+</view>
+<view class="name">
+    <view class="name_input">
+        <input type="text" placeholder="请输入姓名" value="{{name}}"/>
+    </view>
+</view>
+<view class="phone_Title">
+    <view class="phone_title">联系方式</view>
+</view>
+<view class="phone">
+    <view class="phone_input">
+        <input type="text" placeholder="请输入电话"  value="{{tel}}"/>
+    </view>
+</view>
+<button bindtap="viewTap">
+    提交
+</button>

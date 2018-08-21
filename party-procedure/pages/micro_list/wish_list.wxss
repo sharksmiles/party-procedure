@@ -1,0 +1,80 @@
+ page{
+    background-color: #ffffff;
+}
+ .wish_title{
+     margin-top: 3px;
+ }
+ .wish_title .wish_title_left{
+     float: left;
+     font-size: 14px;
+     margin: 5px;
+
+ }
+ .wish_title .wish_title_left span{
+     margin-right: 5px;
+     border: 1px solid #9c9090;
+     color: #ba2024;
+     background-color: #eaeaea;
+
+ }
+ .wish_title button{
+     width: 80px;
+     float: right;
+     height: 30px;
+     font-size: 12px;
+     line-height: 30px;
+     margin-top: 2px;
+     background-color: #eaeaea;
+     margin-right: 8px;
+ }
+ .wish_top image{
+     height: 180px;
+     width: 100%;
+     margin-top: 3px;
+ }
+ .wish_submit-left image{
+     width: 35px;
+     height: 35px;
+     margin-left: 20px;
+     float: left;
+ }
+ .wish_submit-left span{
+     font-size: 12px;
+     float: left;
+     padding-top: 5px;
+     color: #c40a1d;
+     font-weight: bold;
+ }
+ .wish_submit-right button{
+     width: 80px;
+     float: right;
+     height: 30px;
+     font-size: 12px;
+     line-height: 30px;
+     margin-top: 2px;
+     margin-right:10px ;
+     color: #ffffff;
+     background-color: #ba2024;
+ }
+.wish_container{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+ .wish_content{
+     border: 1px solid #e0e0e0;
+     border-radius: 5px;
+     padding-left: 8px;
+     box-shadow: 0px 0px 1px;
+     margin-bottom: 8px;
+ }
+ .wish_content_title{
+     font-size: 16px;
+     margin-bottom: 5px;
+     margin-top: 5px;
+ }
+ .wish_content_date{
+     font-size: 12px;
+     color: #e0e0e0;
+     margin-bottom: 5px;
+ }
